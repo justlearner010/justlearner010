@@ -38,4 +38,4 @@ I am currently focusing on AI Agent/RAG application engineering, while keeping b
 ## Contact
 
 - GitHub: [@justlearner010](https://github.com/justlearner010)
-- Historical roadmap archive: the final link will be added after the original repository is renamed.
+- [Historical roadmap archive](https://github.com/justlearner010/jay-ai-agent-roadmap-archive)
