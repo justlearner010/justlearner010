@@ -6,9 +6,9 @@ I am currently focusing on AI Agent/RAG application engineering, while keeping b
 
 ## Featured Work
 
-### [AI Agent Learning System](https://github.com/justlearner010/jay-ai-agent-learning-system)
+### [Jay-ai-learning-lab](https://github.com/justlearner010/Jay-ai-learning-lab)
 
-一套问题驱动的学习框架，以及我的真实运行实例。它把项目实验、周中诊断、周末验收、自由探索和资产化输出连接起来，并为后续学习系统自动化提供稳定结构。
+一个用于持续学习、项目实践和定期复盘的 CS / AI Agent 学习实验室。它不只保存零散笔记，而是将学习过程组织为可追踪、可复盘、可展示的长期资产。
 
 ### [first-CLI Text Tool](https://github.com/justlearner010/jay-first-cli-text-tool)
 
