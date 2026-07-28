@@ -1,41 +1,61 @@
-# Hi, I'm Jay
+# Hi, I'm Jay 👋
 
-I am currently focusing on AI Agent/RAG application engineering, while keeping backend engineering as a long-term foundation.
+我叫 Jay，正在以扎实的工程基本功为底座，持续构建面向真实问题的 AI 应用。
 
-当前主线是 AI Agent/RAG 应用工程，同时保留后端工程能力作为长期基础。我正在把学习过程整理为可以运行、验证、复现和讲解的工程资产。
+I’m Jay, building toward becoming an AI Native Builder—grounded in solid engineering fundamentals and focused on AI applications for real problems.
 
-## Featured Work
+## What I'm Building / 我在构建什么
 
-### [Jay-ai-learning-lab](https://github.com/justlearner010/Jay-ai-learning-lab)
+I learn by building: turning questions into small, runnable, testable, and explainable projects.
 
-一个用于持续学习、项目实践和定期复盘的 CS / AI Agent 学习实验室。它不只保存零散笔记，而是将学习过程组织为可追踪、可复盘、可展示的长期资产。
+我相信学习要落到作品上：把问题变成可运行、可验证、可复盘、也能讲清楚的工程实践。
 
-### [first-CLI Text Tool](https://github.com/justlearner010/jay-first-cli-text-tool)
+My current direction is AI Agent and RAG application engineering, with Python and backend engineering as long-term foundations.
 
-一个使用标准 `src/` 布局和 GitHub Actions 的 Python 文本处理 CLI，覆盖文本统计、词频、字符分块、JSON 输出和 mock summary。
+当前主线是 AI Agent 与 RAG 应用工程，同时持续夯实 Python 与后端工程基础。
+
+## Selected Work / 精选项目
+
+### [Adaptive Learning Agent](https://github.com/justlearner010/adaptive-learning-agent)
+
+A notebook-first learning agent for Python and NumPy that connects learner profiles, staged plans, theory checks, code labs, and evidence-based progression.
+
+一个以 Notebook 为入口的 Python 与 NumPy 学习 Agent：把学习画像、阶段路线、理论检查、代码 Lab 与基于证据的推进机制连接成闭环。
+
+### [AI Learning Lab](https://github.com/justlearner010/Jay-ai-learning-lab)
+
+A long-term CS and AI learning lab for project practice, reflection, and reusable learning assets.
+
+一个长期维护的 CS 与 AI 学习实验室，用于项目实践、定期复盘与沉淀可复用的学习资产。
+
+### [CLI Text Tool](https://github.com/justlearner010/jay-first-cli-text-tool)
+
+A tested Python CLI for text statistics, chunking, structured JSON output, and mock summarization.
+
+一个经过测试的 Python 文本处理 CLI，支持文本统计、分块、结构化 JSON 输出与模拟摘要。
 
 ### [AI Engineering Notes](https://github.com/justlearner010/jay-ai-engineering-notes)
 
-按主题和日期组织的 Python、测试、AI 工程、TypeScript、算法笔记与精选周复盘。
+Notes and weekly reflections on Python, testing, AI engineering, TypeScript, and algorithms.
 
-## Current Stage
+按主题与日期整理的 Python、测试、AI 工程、TypeScript 与算法笔记，以及精选周复盘。
 
-- Building an AI learning assistant around typed UI states, structured model output and a reproducible project workflow.
-- Learning AI Agent/RAG application engineering through project questions and verified milestones.
-- Improving Python and TypeScript engineering fundamentals through tests and small production-shaped projects.
+## Current Focus / 当前重点
 
-## Next
+- AI Agent and RAG application engineering / AI Agent 与 RAG 应用工程
+- Python and TypeScript fundamentals through tests and small production-shaped projects / 通过测试和小型工程项目夯实 Python 与 TypeScript
+- Typed interfaces, structured model output, observable failures, and reproducible demos / 类型化接口、结构化模型输出、可观测失败路径与可复现演示
 
-- Connect the current frontend prototype to a typed API route and a real LLM API.
-- Add validation, observable error paths and reproducible demos.
-- Turn project failures and design choices into interview-ready engineering stories.
+## How I Work / 我的工作方式
 
-## Other Projects
+Build → verify → document → iterate.
 
-- [AI Reader](https://github.com/justlearner010/ai_reader)
-- [Personal Website](https://github.com/justlearner010/my_website)
+构建 → 验证 → 记录 → 迭代。
 
-## Contact
+I’m early in the journey, but serious about the craft: each project is a deliberate step toward becoming an AI Native Builder.
+
+我仍在成长的起点，但会认真对待每一次工程实践：每个项目，都是向 AI Native Builder 迈进的扎实一步。
+
+## Connect / 联系方式
 
 - GitHub: [@justlearner010](https://github.com/justlearner010)
-- [Historical roadmap archive](https://github.com/justlearner010/jay-ai-agent-roadmap-archive)
