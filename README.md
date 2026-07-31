@@ -34,12 +34,6 @@ A tested Python CLI for text statistics, chunking, structured JSON output, and m
 
 一个经过测试的 Python 文本处理 CLI，支持文本统计、分块、结构化 JSON 输出与模拟摘要。
 
-### [AI Engineering Notes](https://github.com/justlearner010/jay-ai-engineering-notes)
-
-Notes and weekly reflections on Python, testing, AI engineering, TypeScript, and algorithms.
-
-按主题与日期整理的 Python、测试、AI 工程、TypeScript 与算法笔记，以及精选周复盘。
-
 ## Current Focus / 当前重点
 
 - AI Agent and RAG application engineering / AI Agent 与 RAG 应用工程
