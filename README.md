@@ -1,55 +1,76 @@
 # Hi, I'm Jay 👋
 
-我叫 Jay，正在以扎实的工程基本功为底座，持续构建面向真实问题的 AI 应用。
+[中文](./README.zh-CN.md)
 
-I’m Jay, building toward becoming an AI Native Builder—grounded in solid engineering fundamentals and focused on AI applications for real problems.
+I'm a CS student exploring **AI agent runtimes, evaluation, and adaptive execution**.
 
-## What I'm Building / 我在构建什么
+I learn by building small, inspectable systems and testing concrete questions: how agents navigate repositories, when more complex execution strategies are actually worth their cost, and how runtime policies can make those choices more reliably.
 
-I learn by building: turning questions into small, runnable, testable, and explainable projects.
+> **Build → measure → inspect failures → iterate.**
 
-我相信学习要落到作品上：把问题变成可运行、可验证、可复盘、也能讲清楚的工程实践。
+## Featured Projects
 
-My current direction is AI Agent and RAG application engineering, with Python and backend engineering as long-term foundations.
+### [mini-Pi](https://github.com/justlearner010/mini-Pi)
 
-当前主线是 AI Agent 与 RAG 应用工程，同时持续夯实 Python 与后端工程基础。
+**A small, readable TypeScript terminal agent for studying coding-agent internals.**
 
-## Selected Work / 精选项目
+Rather than cloning a full coding assistant, mini-Pi keeps the runtime deliberately compact so I can study each layer directly: provider integration, tool calling, the agent loop, context management, repository navigation, permissions, CLI/TUI behavior, and evaluation.
 
-### [Adaptive Learning Agent](https://github.com/justlearner010/adaptive-learning-agent)
+Current work includes:
 
-A notebook-first learning agent for Python and NumPy that connects learner profiles, staged plans, theory checks, code labs, and evidence-based progression.
+- a bounded, syntax-level **Repo Index** for TypeScript/JavaScript projects;
+- query-aware **Repo Maps** that help the agent locate relevant files before reading source;
+- runtime-enforced tool permission boundaries;
+- reproducible local and live-provider evaluations of repository navigation behavior.
 
-一个以 Notebook 为入口的 Python 与 NumPy 学习 Agent：把学习画像、阶段路线、理论检查、代码 Lab 与基于证据的推进机制连接成闭环。
+One external-repository evaluation exposed a weak lexical ranking baseline (product-code Top-3: **1/5**); adding scope/package/role-aware ranking improved it to **5/5** on the same five tasks. The point of the project is not the number itself, but the loop: build a mechanism, measure it, find where it fails, then revise it.
 
-### [AI Learning Lab](https://github.com/justlearner010/Jay-ai-learning-lab)
+→ [Repository](https://github.com/justlearner010/mini-Pi) · [Experiments](https://github.com/justlearner010/mini-Pi/tree/main/docs/experiments)
 
-A long-term CS and AI learning lab for project practice, reflection, and reusable learning assets.
+---
 
-一个长期维护的 CS 与 AI 学习实验室，用于项目实践、定期复盘与沉淀可复用的学习资产。
+### [Adaptive Agent Runtime Lab](https://github.com/justlearner010/adaptive-agent-runtime-lab)
 
-### [CLI Text Tool](https://github.com/justlearner010/jay-first-cli-text-tool)
+**A research-oriented testbed for one question: which execution strategy should an agent use for a given task?**
 
-A tested Python CLI for text statistics, chunking, structured JSON output, and mock summarization.
+The runtime implements and compares **Direct, ReAct, and Subagent** execution under a shared evaluation harness. Each strategy is measured using structured traces for correctness, LLM calls, tokens, latency, tool calls, and subagent spawns.
 
-一个经过测试的 Python 文本处理 CLI，支持文本统计、分块、结构化 JSON 输出与模拟摘要。
+The current experimental loop is:
 
-## Current Focus / 当前重点
+`Task → Policy → Execution Strategy → Trace → Evaluation`
 
-- AI Agent and RAG application engineering / AI Agent 与 RAG 应用工程
-- Python and TypeScript fundamentals through tests and small production-shaped projects / 通过测试和小型工程项目夯实 Python 与 TypeScript
-- Typed interfaces, structured model output, observable failures, and reproducible demos / 类型化接口、结构化模型输出、可观测失败路径与可复现演示
+Preliminary results from the current single-model benchmark suggest that simpler execution is a much stronger baseline than expected: Direct was optimal on **31/40** evaluated tasks, while ReAct became necessary on tasks requiring external corpus search. These are deliberately treated as stage-specific findings rather than universal conclusions.
 
-## How I Work / 我的工作方式
+Longer-term, I want to explore whether execution policies can learn from task features and runtime signals instead of relying on fixed routing rules.
 
-Build → verify → document → iterate.
+→ [Repository](https://github.com/justlearner010/adaptive-agent-runtime-lab) · [Research Notes](https://github.com/justlearner010/adaptive-agent-runtime-lab/blob/main/RESEARCH.md)
 
-构建 → 验证 → 记录 → 迭代。
+## Questions I'm Exploring
 
-I’m early in the journey, but serious about the craft: each project is a deliberate step toward becoming an AI Native Builder.
+- How should coding agents navigate large repositories under limited context budgets?
+- When do ReAct, planning, or subagents justify their additional cost?
+- What signals should an agent runtime use to select an execution strategy?
+- How should we evaluate agent behavior beyond a single final-answer accuracy score?
+- Which runtime guarantees should be enforced by code rather than left to the model?
 
-我仍在成长的起点，但会认真对待每一次工程实践：每个项目，都是向 AI Native Builder 迈进的扎实一步。
+## How I Work
 
-## Connect / 联系方式
+I prefer projects that leave evidence behind:
+
+- **runnable systems** instead of architecture-only demos;
+- **benchmarks and traces** instead of intuition-only claims;
+- **failure cases and limitations** documented alongside positive results;
+- **Issue → implementation → evaluation → revision** as a repeatable engineering loop.
+
+I'm still early in the journey, so I use these projects as laboratories: each one should teach me something about how real agent systems behave, not just add another framework name to a résumé.
+
+## Other Work
+
+- [Adaptive Learning Agent](https://github.com/justlearner010/adaptive-learning-agent) — a notebook-first learning agent connecting learner profiles, staged plans, theory checks, and code labs.
+- [CLI Text Tool](https://github.com/justlearner010/jay-first-cli-text-tool) — a tested Python CLI for text statistics, chunking, structured JSON output, and mock summarization.
+
+## Connect
 
 - GitHub: [@justlearner010](https://github.com/justlearner010)
+
+If you're working on **agent runtimes, evals, coding agents, or execution strategy research**, I'd be interested in comparing notes, benchmarks, and failure cases.
